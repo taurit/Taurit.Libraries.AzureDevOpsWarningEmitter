@@ -33,7 +33,6 @@ namespace Taurit.Libraries.AzureDevOpsWarningEmitter.Tests
             Assert.IsFalse(issues.Any());
         }
 
-
         [TestMethod]
         public void When_WarningsAreFound_Expect_AllOfRequiredFieldsAreSet()
         {
