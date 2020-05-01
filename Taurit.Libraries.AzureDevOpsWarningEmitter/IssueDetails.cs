@@ -18,6 +18,9 @@ namespace Taurit.Libraries.AzureDevOpsWarningEmitter
             Message = message;
         }
 
+        /// <summary>
+        /// "warning" or "error"
+        /// </summary>
         public string IssueType { get; }
         public string SourcePath { get; }
         public string LineNumber { get; }

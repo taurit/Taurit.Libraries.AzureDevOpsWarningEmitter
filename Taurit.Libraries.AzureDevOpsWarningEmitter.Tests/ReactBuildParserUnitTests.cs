@@ -4,13 +4,13 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 namespace Taurit.Libraries.AzureDevOpsWarningEmitter.Tests
 {
     [TestClass]
-    public class NpmParserUnitTests
+    public class ReactBuildParserUnitTests
     {
         [TestMethod]
         public void When_DotnetCoreBuildOutputWithWarningsIsGivenAsInput_Expect_NoWarningsFound()
         {
             // Arrange
-            var parser = BuildLogParserFactory.GetParser(BuildLogParserType.Npm);
+            var parser = BuildLogParserFactory.GetParser(BuildLogParserType.React);
 
             // Act
             var issues = parser.GetIssues("sample-dotnet-build-output.txt");
@@ -23,10 +23,10 @@ namespace Taurit.Libraries.AzureDevOpsWarningEmitter.Tests
         public void When_NpmBuildOutputWithWarningsIsGivenAsInput_Expect_AllWarningsAreFound()
         {
             // Arrange
-            var parser = BuildLogParserFactory.GetParser(BuildLogParserType.Npm);
+            var parser = BuildLogParserFactory.GetParser(BuildLogParserType.React);
 
             // Act
-            var issues = parser.GetIssues("sample-npm-build-output.txt");
+            var issues = parser.GetIssues("sample-react-build-output.txt");
 
             // Assert
             Assert.AreEqual(3, issues.Count);
@@ -36,10 +36,10 @@ namespace Taurit.Libraries.AzureDevOpsWarningEmitter.Tests
         public void When_WarningsAreFound_Expect_AllAvailableDataIsExposed()
         {
             // Arrange
-            var parser = BuildLogParserFactory.GetParser(BuildLogParserType.Npm);
+            var parser = BuildLogParserFactory.GetParser(BuildLogParserType.React);
 
             // Act
-            var issues = parser.GetIssues("sample-npm-build-output.txt");
+            var issues = parser.GetIssues("sample-react-build-output.txt");
 
             // Assert
             foreach (var issue in issues)

@@ -21,7 +21,7 @@
     <None Update="sample-dotnet-build-output.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="sample-npm-build-output.txt">
+    <None Update="sample-react-build-output.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
   </ItemGroup>

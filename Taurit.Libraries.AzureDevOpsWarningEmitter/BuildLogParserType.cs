@@ -3,6 +3,6 @@
     public enum BuildLogParserType
     {
         Dotnet,
-        Npm
+        React
     }
 }

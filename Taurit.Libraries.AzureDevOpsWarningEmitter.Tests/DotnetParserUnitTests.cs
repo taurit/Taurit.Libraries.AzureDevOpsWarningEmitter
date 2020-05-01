@@ -21,13 +21,13 @@ namespace Taurit.Libraries.AzureDevOpsWarningEmitter.Tests
         }
 
         [TestMethod]
-        public void When_NpmBuildOutputIsGivenAsInput_Expect_NoWarningsFound()
+        public void When_ReactBuildOutputIsGivenAsInput_Expect_NoWarningsFound()
         {
             // Arrange
             var parser = BuildLogParserFactory.GetParser(BuildLogParserType.Dotnet);
 
             // Act
-            var issues = parser.GetIssues("sample-npm-build-output.txt");
+            var issues = parser.GetIssues("sample-react-build-output.txt");
 
             // Assert
             Assert.IsFalse(issues.Any());
