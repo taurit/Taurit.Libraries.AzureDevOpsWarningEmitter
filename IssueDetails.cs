@@ -1,4 +1,6 @@
-﻿namespace Taurit.Libraries.AzureDevOpsWarningEmitter
+﻿using System.Diagnostics.CodeAnalysis;
+
+namespace Taurit.Libraries.AzureDevOpsWarningEmitter
 {
     /// <summary>
     ///     Details of a single "dotnet build" issue (like warning or error)
@@ -23,6 +25,7 @@
         private string IssueCode { get; }
         private string Message { get; }
 
+        [SuppressMessage("ReSharper", "StringLiteralTypo")]
         public override string ToString()
         {
             return
