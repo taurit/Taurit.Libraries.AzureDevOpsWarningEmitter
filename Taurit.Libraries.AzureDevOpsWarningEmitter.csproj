@@ -3,6 +3,20 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.1</TargetFramework>
     <Nullable>enable</Nullable>
+    <Version>0.0.1</Version>
+    <Authors>Paweł Bulwan</Authors>
+    <Company>Taurit</Company>
+    <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+    <PackageProjectUrl>https://github.com/taurit/Taurit.Libraries.AzureDevOpsWarningEmitter</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/taurit/Taurit.Libraries.AzureDevOpsWarningEmitter.git</RepositoryUrl>
+    <Description>Takes result of a dotnet build as an input. Outputs encountered warnings and errors as Azure DevOps-logging commands.</Description>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="LICENSE.txt">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
 
 </Project>
