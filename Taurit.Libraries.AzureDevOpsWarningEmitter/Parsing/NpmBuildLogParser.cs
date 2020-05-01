@@ -1,5 +1,4 @@
 ﻿using System.Collections.Generic;
-using System.Text.RegularExpressions;
 
 namespace Taurit.Libraries.AzureDevOpsWarningEmitter.Parsing
 {
@@ -8,9 +7,7 @@ namespace Taurit.Libraries.AzureDevOpsWarningEmitter.Parsing
     /// </summary>
     internal class NpmBuildLogParser : IBuildLogParser
     {
-        private readonly Regex _messageRegex = new Regex("(?<=((warning|error) [A-Za-z0-9]+: )).*");
-
-        public IEnumerable<IssueDetails> GetIssues(string buildLogFileName)
+        public IReadOnlyList<IssueDetails> GetIssues(string buildLogFileName)
         {
             var result = new[]
             {

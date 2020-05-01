@@ -14,14 +14,14 @@ namespace Taurit.Libraries.AzureDevOpsWarningEmitter.Parsing
         // Id\IId.cs(7,14): warning CS0108: 'IId.Equals(IId)' hides inherited member 'IEquatable<IId>.Equals(IId)'. Use the new keyword if hiding was intended. [d:\x.csproj]
         private readonly Regex _issueCodeRegex = new Regex("(?<=(warning|error) )[A-Za-z0-9]+");
         private readonly Regex _issueLocationRegex = new Regex("(\\d+,\\d+)");
-        private readonly Regex _issueTypeRegex = new Regex("(?<issueType>warning|error)");
+        private readonly Regex _issueTypeRegex = new Regex("\\): (?<issueType>warning|error)");
         private readonly Regex _messageRegex = new Regex("(?<=((warning|error) [A-Za-z0-9]+: )).*");
         private readonly Regex _sourcePathRegex = new Regex("^[^/(]*");
 
-        public IEnumerable<IssueDetails> GetIssues(string buildLogFileName)
+        public IReadOnlyList<IssueDetails> GetIssues(string buildLogFileName)
         {
             var allLines = File.ReadLines(buildLogFileName);
-            var issues = allLines.Where(DoesLineContainIssue).Select(ParseIssueLine);
+            var issues = allLines.Where(DoesLineContainIssue).Select(ParseIssueLine).ToList();
             return issues;
         }
 

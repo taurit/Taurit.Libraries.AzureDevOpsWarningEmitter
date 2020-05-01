@@ -1,0 +1,48 @@
+Microsoft (R) Build Engine version 16.4.0+e901037fe for .NET Core
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Restore completed in 51,99 ms for d:\Projects\Foo\src\myproject\Taurit.MyProject.Service1\Taurit.MyProject.Service1.BusinessLogic\Taurit.MyProject.Service1.BusinessLogic.csproj.
+  Restore completed in 51,06 ms for d:\Projects\Foo\src\myproject\Taurit.MyProject.Service1\Taurit.MyProject.Service1.Interface\Taurit.MyProject.Service1.Interface.csproj.
+  Restore completed in 71,42 ms for d:\Projects\Foo\src\myproject\Taurit.MyProject.Authorization\Taurit.MyProject.Authorization.csproj.
+  Restore completed in 82,77 ms for d:\Projects\Foo\src\myproject\Taurit.MyProject.Service1\Taurit.MyProject.Service1.UnitTests\Taurit.MyProject.Service1.UnitTests.csproj.
+  Restore completed in 87,35 ms for d:\Projects\Foo\src\myproject\Taurit.MyProject.Service1\Taurit.MyProject.Service1\Taurit.MyProject.Service1.csproj.
+  Restore completed in 362,51 ms for d:\Projects\Foo\src\myproject\Taurit.MyProject.BaseIds.Interface\Taurit.MyProject.BaseIds.Interface.csproj.
+  Taurit.MyProject.Authorization -> d:\Projects\Foo\src\myproject\Taurit.MyProject.Authorization\bin\Release\netstandard2.0\Taurit.MyProject.Authorization.dll
+Id\IId.cs(7,14): warning CS0108: 'IId.Equals(IId)' hides inherited member 'IEquatable<IId>.Equals(IId)'. Use the new keyword if hiding was intended. [d:\Projects\Foo\src\myproject\Taurit.MyProject.BaseIds.Interface\Taurit.MyProject.BaseIds.Interface.csproj]
+Id\Id.cs(42,59): warning CS0693: Type parameter 'TId' has the same name as the type parameter from outer type 'Id<TId, Tvalue>' [d:\Projects\Foo\src\myproject\Taurit.MyProject.BaseIds.Interface\Taurit.MyProject.BaseIds.Interface.csproj]
+Id\Id.cs(8,27): warning CS0659: 'Id<TId, Tvalue>' overrides Object.Equals(object o) but does not override Object.GetHashCode() [d:\Projects\Foo\src\myproject\Taurit.MyProject.BaseIds.Interface\Taurit.MyProject.BaseIds.Interface.csproj]
+Id\MultiId.cs(8,18): warning CS0659: 'MultiId<TId>' overrides Object.Equals(object o) but does not override Object.GetHashCode() [d:\Projects\Foo\src\myproject\Taurit.MyProject.BaseIds.Interface\Taurit.MyProject.BaseIds.Interface.csproj]
+  Taurit.MyProject.BaseIds.Interface -> d:\Projects\Foo\src\myproject\Taurit.MyProject.BaseIds.Interface\bin\Release\netstandard2.0\Taurit.MyProject.BaseIds.Interface.dll
+  Taurit.MyProject.Service1.Interface -> d:\Projects\Foo\src\myproject\Taurit.MyProject.Service1\Taurit.MyProject.Service1.Interface\bin\Release\netstandard2.0\Taurit.MyProject.Service1.Interface.dll
+  Taurit.MyProject.Service1.BusinessLogic -> d:\Projects\Foo\src\myproject\Taurit.MyProject.Service1\Taurit.MyProject.Service1.BusinessLogic\bin\Release\netstandard2.0\Taurit.MyProject.Service1.BusinessLogic.dll
+Program.cs(6,18): warning CS1591: Missing XML comment for publicly visible type or member 'Program' [d:\Projects\Foo\src\myproject\Taurit.MyProject.Service1\Taurit.MyProject.Service1\Taurit.MyProject.Service1.csproj]
+Program.cs(8,28): warning CS1591: Missing XML comment for publicly visible type or member 'Program.Main(string[])' [d:\Projects\Foo\src\myproject\Taurit.MyProject.Service1\Taurit.MyProject.Service1\Taurit.MyProject.Service1.csproj]
+Program.cs(13,39): warning CS1591: Missing XML comment for publicly visible type or member 'Program.CreateWebHostBuilder(string[])' [d:\Projects\Foo\src\myproject\Taurit.MyProject.Service1\Taurit.MyProject.Service1\Taurit.MyProject.Service1.csproj]
+Startup.cs(16,18): warning CS1591: Missing XML comment for publicly visible type or member 'Startup' [d:\Projects\Foo\src\myproject\Taurit.MyProject.Service1\Taurit.MyProject.Service1\Taurit.MyProject.Service1.csproj]
+Startup.cs(18,16): warning CS1591: Missing XML comment for publicly visible type or member 'Startup.Startup(IConfiguration)' [d:\Projects\Foo\src\myproject\Taurit.MyProject.Service1\Taurit.MyProject.Service1\Taurit.MyProject.Service1.csproj]
+Startup.cs(23,31): warning CS1591: Missing XML comment for publicly visible type or member 'Startup.Configuration' [d:\Projects\Foo\src\myproject\Taurit.MyProject.Service1\Taurit.MyProject.Service1\Taurit.MyProject.Service1.csproj]
+Startup.cs(26,21): warning CS1591: Missing XML comment for publicly visible type or member 'Startup.ConfigureServices(IServiceCollection)' [d:\Projects\Foo\src\myproject\Taurit.MyProject.Service1\Taurit.MyProject.Service1\Taurit.MyProject.Service1.csproj]
+Startup.cs(54,21): warning CS1591: Missing XML comment for publicly visible type or member 'Startup.Configure(IApplicationBuilder, IHostingEnvironment)' [d:\Projects\Foo\src\myproject\Taurit.MyProject.Service1\Taurit.MyProject.Service1\Taurit.MyProject.Service1.csproj]
+  Taurit.MyProject.Service1 -> d:\Projects\Foo\src\myproject\Taurit.MyProject.Service1\Taurit.MyProject.Service1\bin\Release\netcoreapp2.2\Taurit.MyProject.Service1.dll
+C:\Program Files\dotnet\sdk\3.1.101\Microsoft.Common.CurrentVersion.targets(2106,5): warning MSB3277: Found conflicts between different versions of "Microsoft.AspNetCore.Hosting" that could not be resolved.  These reference conflicts are listed in the build log when log verbosity is set to detailed. [d:\Projects\Foo\src\myproject\Taurit.MyProject.Service1\Taurit.MyProject.Service1.UnitTests\Taurit.MyProject.Service1.UnitTests.csproj]
+  Taurit.MyProject.Service1.UnitTests -> d:\Projects\Foo\src\myproject\Taurit.MyProject.Service1\Taurit.MyProject.Service1.UnitTests\bin\Release\netcoreapp2.2\Taurit.MyProject.Service1.UnitTests.dll
+
+Build succeeded.
+
+Id\IId.cs(7,14): warning CS0108: 'IId.Equals(IId)' hides inherited member 'IEquatable<IId>.Equals(IId)'. Use the new keyword if hiding was intended. [d:\Projects\Foo\src\myproject\Taurit.MyProject.BaseIds.Interface\Taurit.MyProject.BaseIds.Interface.csproj]
+Id\Id.cs(42,59): warning CS0693: Type parameter 'TId' has the same name as the type parameter from outer type 'Id<TId, Tvalue>' [d:\Projects\Foo\src\myproject\Taurit.MyProject.BaseIds.Interface\Taurit.MyProject.BaseIds.Interface.csproj]
+Id\Id.cs(8,27): warning CS0659: 'Id<TId, Tvalue>' overrides Object.Equals(object o) but does not override Object.GetHashCode() [d:\Projects\Foo\src\myproject\Taurit.MyProject.BaseIds.Interface\Taurit.MyProject.BaseIds.Interface.csproj]
+Id\MultiId.cs(8,18): warning CS0659: 'MultiId<TId>' overrides Object.Equals(object o) but does not override Object.GetHashCode() [d:\Projects\Foo\src\myproject\Taurit.MyProject.BaseIds.Interface\Taurit.MyProject.BaseIds.Interface.csproj]
+Program.cs(6,18): warning CS1591: Missing XML comment for publicly visible type or member 'Program' [d:\Projects\Foo\src\myproject\Taurit.MyProject.Service1\Taurit.MyProject.Service1\Taurit.MyProject.Service1.csproj]
+Program.cs(8,28): warning CS1591: Missing XML comment for publicly visible type or member 'Program.Main(string[])' [d:\Projects\Foo\src\myproject\Taurit.MyProject.Service1\Taurit.MyProject.Service1\Taurit.MyProject.Service1.csproj]
+Program.cs(13,39): warning CS1591: Missing XML comment for publicly visible type or member 'Program.CreateWebHostBuilder(string[])' [d:\Projects\Foo\src\myproject\Taurit.MyProject.Service1\Taurit.MyProject.Service1\Taurit.MyProject.Service1.csproj]
+Startup.cs(16,18): warning CS1591: Missing XML comment for publicly visible type or member 'Startup' [d:\Projects\Foo\src\myproject\Taurit.MyProject.Service1\Taurit.MyProject.Service1\Taurit.MyProject.Service1.csproj]
+Startup.cs(18,16): warning CS1591: Missing XML comment for publicly visible type or member 'Startup.Startup(IConfiguration)' [d:\Projects\Foo\src\myproject\Taurit.MyProject.Service1\Taurit.MyProject.Service1\Taurit.MyProject.Service1.csproj]
+Startup.cs(23,31): warning CS1591: Missing XML comment for publicly visible type or member 'Startup.Configuration' [d:\Projects\Foo\src\myproject\Taurit.MyProject.Service1\Taurit.MyProject.Service1\Taurit.MyProject.Service1.csproj]
+Startup.cs(26,21): warning CS1591: Missing XML comment for publicly visible type or member 'Startup.ConfigureServices(IServiceCollection)' [d:\Projects\Foo\src\myproject\Taurit.MyProject.Service1\Taurit.MyProject.Service1\Taurit.MyProject.Service1.csproj]
+Startup.cs(54,21): warning CS1591: Missing XML comment for publicly visible type or member 'Startup.Configure(IApplicationBuilder, IHostingEnvironment)' [d:\Projects\Foo\src\myproject\Taurit.MyProject.Service1\Taurit.MyProject.Service1\Taurit.MyProject.Service1.csproj]
+C:\Program Files\dotnet\sdk\3.1.101\Microsoft.Common.CurrentVersion.targets(2106,5): warning MSB3277: Found conflicts between different versions of "Microsoft.AspNetCore.Hosting" that could not be resolved.  These reference conflicts are listed in the build log when log verbosity is set to detailed. [d:\Projects\Foo\src\myproject\Taurit.MyProject.Service1\Taurit.MyProject.Service1.UnitTests\Taurit.MyProject.Service1.UnitTests.csproj]
+    13 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.87

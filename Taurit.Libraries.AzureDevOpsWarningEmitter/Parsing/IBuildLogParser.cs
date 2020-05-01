@@ -4,6 +4,6 @@ namespace Taurit.Libraries.AzureDevOpsWarningEmitter.Parsing
 {
     public interface IBuildLogParser
     {
-        IEnumerable<IssueDetails> GetIssues(string buildLogFileName);
+        IReadOnlyList<IssueDetails> GetIssues(string buildLogFileName);
     }
 }

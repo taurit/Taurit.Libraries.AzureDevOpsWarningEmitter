@@ -19,11 +19,11 @@ namespace Taurit.Libraries.AzureDevOpsWarningEmitter
         }
 
         public string IssueType { get; }
-        private string SourcePath { get; }
-        private string LineNumber { get; }
-        private string ColumnNumber { get; }
-        private string IssueCode { get; }
-        private string Message { get; }
+        public string SourcePath { get; }
+        public string LineNumber { get; }
+        public string ColumnNumber { get; }
+        public string IssueCode { get; }
+        public string Message { get; }
 
         [SuppressMessage("ReSharper", "StringLiteralTypo")]
         public override string ToString()

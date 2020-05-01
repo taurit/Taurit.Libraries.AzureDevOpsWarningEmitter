@@ -1,0 +1,37 @@
+
+> taurit.myproject.web@0.1.0 build d:\Projects\Unicorn\src\myproject\Taurit.MyProject.Web
+> react-scripts build
+
+Creating an optimized production build...
+Compiled with warnings.
+
+./src/state/Component1Store/Component1Reducer.ts
+  Line 4:13:   'Component1Actions' is defined but never used             @typescript-eslint/no-unused-vars
+  Line 35:19:  'receiveFailedAction' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+./src/state/MyViewStore/MyViewReducer.ts
+  Line 63:23:  'requestUnlinkAction' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+File sizes after gzip:
+
+  285.04 KB         build\static\js\2.6db4c642.chunk.js
+  24.77 KB          build\static\css\2.9e813ccd.chunk.css
+  6.17 KB (+138 B)  build\static\js\main.e69c66b0.chunk.js
+  781 B             build\static\js\runtime-main.968fd963.js
+  100 B             build\static\css\main.74ffffa2.chunk.css
+
+The project was built assuming it is hosted at /.
+You can control this with the homepage field in your package.json.
+
+The build folder is ready to be deployed.
+You may serve it with a static server:
+
+  serve -s build
+
+Find out more about deployment here:
+
+  bit.ly/CRA-deploy
+
