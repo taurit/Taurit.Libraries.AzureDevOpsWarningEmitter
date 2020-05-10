@@ -18,6 +18,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Update="sample-dotnet-build-output-slashes.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Update="sample-dotnet-build-output.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>

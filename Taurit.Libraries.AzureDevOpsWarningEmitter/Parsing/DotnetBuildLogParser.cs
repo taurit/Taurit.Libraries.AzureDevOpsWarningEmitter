@@ -16,7 +16,7 @@ namespace Taurit.Libraries.AzureDevOpsWarningEmitter.Parsing
         private readonly Regex _issueLocationRegex = new Regex("(\\d+,\\d+)");
         private readonly Regex _issueTypeRegex = new Regex("\\): (?<issueType>warning|error)");
         private readonly Regex _messageRegex = new Regex("(?<=((warning|error) [A-Za-z0-9]+: )).*");
-        private readonly Regex _sourcePathRegex = new Regex("^[^/(]*");
+        private readonly Regex _sourcePathRegex = new Regex("^[^(]*");
 
         public IReadOnlyList<IssueDetails> GetIssues(string buildLogFileName)
         {
@@ -40,7 +40,7 @@ namespace Taurit.Libraries.AzureDevOpsWarningEmitter.Parsing
         {
             var issueType = _issueTypeRegex.Match(line).Groups["issueType"].Value;
             var issueLocation = _issueLocationRegex.Match(line).Groups[0].Value.Split(',');
-            var sourcePath = _sourcePathRegex.Match(line).Groups[0].Value;
+            var sourcePath = _sourcePathRegex.Match(line).Groups[0].Value.Replace('/', '\\');
             var lineNumber = issueLocation[0];
             var columnNumber = issueLocation[1];
 

@@ -1,0 +1,13 @@
+ExternalServiceAdapters/UserInfoProvider.cs(37,45): warning CS8604: Possible null reference argument for parameter 'firstName' in 'PersonName.PersonName(string firstName, string lastName)'. [/src/Taurit.MyProject.FooService/Taurit.MyProject.FooService/Taurit.MyProject.FooService.csproj]
+ExternalServiceAdapters/UserInfoProvider.cs(37,62): warning CS8604: Possible null reference argument for parameter 'lastName' in 'PersonName.PersonName(string firstName, string lastName)'. [/src/Taurit.MyProject.FooService/Taurit.MyProject.FooService/Taurit.MyProject.FooService.csproj]
+Service/ServiceBusTopicClient.cs(139,40): warning CS8602: Dereference of a possibly null reference. [/src/Taurit.MyProject.FooService/Taurit.MyProject.FooService/Taurit.MyProject.FooService.csproj]
+Storage/DBModels/DbRelationship.cs(37,21): warning CS0169: The field 'DbRelationship._id' is never used [/src/Taurit.MyProject.FooService/Taurit.MyProject.FooService/Taurit.MyProject.FooService.csproj]
+
+Build succeeded.
+
+ExternalServiceAdapters/UserInfoProvider.cs(37,45): warning CS8604: Possible null reference argument for parameter 'firstName' in 'PersonName.PersonName(string firstName, string lastName)'. [/src/Taurit.MyProject.FooService/Taurit.MyProject.FooService/Taurit.MyProject.FooService.csproj]
+ExternalServiceAdapters/UserInfoProvider.cs(37,62): warning CS8604: Possible null reference argument for parameter 'lastName' in 'PersonName.PersonName(string firstName, string lastName)'. [/src/Taurit.MyProject.FooService/Taurit.MyProject.FooService/Taurit.MyProject.FooService.csproj]
+Service/ServiceBusTopicClient.cs(139,40): warning CS8602: Dereference of a possibly null reference. [/src/Taurit.MyProject.FooService/Taurit.MyProject.FooService/Taurit.MyProject.FooService.csproj]
+Storage/DBModels/DbRelationship.cs(37,21): warning CS0169: The field 'DbRelationship._id' is never used [/src/Taurit.MyProject.FooService/Taurit.MyProject.FooService/Taurit.MyProject.FooService.csproj]
+    4 Warning(s)
+    0 Error(s)
