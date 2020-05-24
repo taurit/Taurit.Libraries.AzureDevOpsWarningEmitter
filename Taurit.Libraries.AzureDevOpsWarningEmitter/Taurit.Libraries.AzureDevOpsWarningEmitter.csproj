@@ -10,6 +10,14 @@
     <PackageProjectUrl>https://github.com/taurit/Taurit.Libraries.AzureDevOpsWarningEmitter</PackageProjectUrl>
     <RepositoryUrl>https://github.com/taurit/Taurit.Libraries.AzureDevOpsWarningEmitter.git</RepositoryUrl>
     <Description>Takes result of a dotnet build as an input. Outputs encountered warnings and errors as Azure DevOps-logging commands.</Description>
+    
+    <!-- Enable SourceLink -->
+    <PublishRepositoryUrl>true</PublishRepositoryUrl>
+    <EmbedUntrackedSources>true</EmbedUntrackedSources>
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+    <!-- End: enable SourceLink -->
+
   </PropertyGroup>
 
   <ItemGroup>
@@ -19,4 +27,7 @@
     </None>
   </ItemGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Microsoft.SourceLink.GitHub" Version="1.0.0" PrivateAssets="All"/>
+  </ItemGroup>
 </Project>
