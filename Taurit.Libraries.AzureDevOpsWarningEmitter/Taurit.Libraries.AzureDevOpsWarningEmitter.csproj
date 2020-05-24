@@ -3,7 +3,7 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.1</TargetFramework>
     <Nullable>enable</Nullable>
-    <Version>0.0.5-beta</Version>
+    <Version>0.0.6-beta</Version>
     <Authors>Paweł Bulwan</Authors>
     <Company>Taurit</Company>
     <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
