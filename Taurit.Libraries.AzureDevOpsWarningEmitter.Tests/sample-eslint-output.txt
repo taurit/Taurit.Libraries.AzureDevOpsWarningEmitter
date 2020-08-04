@@ -1,0 +1,677 @@
+
+> wdh.dashboard.web@0.1.0 lint u:\src\dashboard\Demant.Dashboard.Web
+> eslint ./src/**/*.ts ./src/**/*.tsx
+
+
+u:\src\dashboard\Demant.Dashboard.Web\src\infrastructure\fittingsoftware\FittingSoftwareApi.ts
+   8:1  error  This line has a length of 108. Maximum allowed is 100  max-len
+   9:1  error  This line has a length of 119. Maximum allowed is 100  max-len
+  14:1  error  This line has a length of 110. Maximum allowed is 100  max-len
+  18:1  error  This line has a length of 113. Maximum allowed is 100  max-len
+
+u:\src\dashboard\Demant.Dashboard.Web\src\infrastructure\fittingsoftware\FittingSoftwareCallbackApi.ts
+   4:1  error  This line has a length of 129. Maximum allowed is 100  max-len
+   5:1  error  This line has a length of 134. Maximum allowed is 100  max-len
+  11:1  error  This line has a length of 106. Maximum allowed is 100  max-len
+  15:1  error  This line has a length of 107. Maximum allowed is 100  max-len
+
+u:\src\dashboard\Demant.Dashboard.Web\src\infrastructure\fittingsoftware\FittingSoftwareCredentialsProvider.ts
+   8:1   error  This line has a length of 102. Maximum allowed is 100                                                                                                                      max-len
+  13:9   error  Expected the Promise rejection reason to be an Error                                                                                                                       prefer-promise-reject-errors
+  27:30  error  Expected 'this' to be used by class method 'keepPromiseResolver'                                                                                                           class-methods-use-this
+  31:1   error  This line has a length of 110. Maximum allowed is 100                                                                                                                      max-len
+  37:32  error  Expected 'this' to be used by class method 'isFittingSoftwareApiAvailable'                                                                                                 class-methods-use-this
+  52:1   error  This line has a length of 118. Maximum allowed is 100                                                                                                                      max-len
+  57:1   error  This line has a length of 113. Maximum allowed is 100                                                                                                                      max-len
+  58:1   error  This line has a length of 108. Maximum allowed is 100                                                                                                                      max-len
+  61:3   error  iterators/generators require regenerator-runtime, which is too heavyweight for this guide to allow them. Separately, loops should be avoided in favor of array iterations  no-restricted-syntax
+
+u:\src\dashboard\Demant.Dashboard.Web\src\infrastructure\MicrosoftAuthenticationLibrary.ts
+  30:12  error    'fetchWithMockToken' was used before it was defined    @typescript-eslint/no-use-before-define
+  33:65  warning  Unexpected any. Specify a different type               @typescript-eslint/no-explicit-any
+  33:70  warning  'response' is defined but never used                   @typescript-eslint/no-unused-vars
+  33:80  warning  Unexpected any. Specify a different type               @typescript-eslint/no-explicit-any
+  36:7   warning  Unexpected console statement                           no-console
+  40:1   error    This line has a length of 102. Maximum allowed is 100  max-len
+  44:14  error    Unnecessary 'else' after 'return'                      no-else-return
+  51:6   error    Expected newline before ')'                            function-paren-newline
+  51:15  warning  'err' is defined but never used                        @typescript-eslint/no-unused-vars
+  52:1   error    Expected indentation of 4 spaces but found 6           @typescript-eslint/indent
+  53:1   error    Expected indentation of 2 spaces but found 4           @typescript-eslint/indent
+  65:5   warning  Unexpected console statement                           no-console
+
+u:\src\dashboard\Demant.Dashboard.Web\src\infrastructure\Settings.ts
+   2:1  error  This line has a length of 129. Maximum allowed is 100  max-len
+   6:1  error  This line has a length of 104. Maximum allowed is 100  max-len
+  14:1  error  This line has a length of 106. Maximum allowed is 100  max-len
+  40:1  error  This line has a length of 116. Maximum allowed is 100  max-len
+  42:1  error  This line has a length of 116. Maximum allowed is 100  max-len
+  56:2  error  Newline required at end of file but not found          eol-last
+
+u:\src\dashboard\Demant.Dashboard.Web\src\infrastructure\Telemetry.ts
+   8:25  error    Unexpected empty constructor                            @typescript-eslint/no-empty-function
+  10:21  warning  Argument 'history' should be typed with a non-any type  @typescript-eslint/explicit-module-boundary-types
+  10:30  warning  Unexpected any. Specify a different type                @typescript-eslint/no-explicit-any
+  30:19  warning  Missing return type on function                         @typescript-eslint/explicit-module-boundary-types
+  31:1   error    This line has a length of 108. Maximum allowed is 100   max-len
+
+u:\src\dashboard\Demant.Dashboard.Web\src\state\ActionsHelper.ts
+   9:36  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  18:7   warning  Unexpected console statement              no-console
+
+u:\src\dashboard\Demant.Dashboard.Web\src\state\AlertsListStore\AlertsListActionCreators.ts
+  12:5  error  Expected no linebreak before this expression  implicit-arrow-linebreak
+
+u:\src\dashboard\Demant.Dashboard.Web\src\state\AuthenticationStore\AuthenticationReducer.ts
+   5:1   error    This line has a length of 206. Maximum allowed is 100  max-len
+  13:7   error    Unexpected lexical declaration in case block           no-case-declarations
+  14:7   error    Unexpected lexical declaration in case block           no-case-declarations
+  15:7   error    Unexpected lexical declaration in case block           no-case-declarations
+  16:1   error    Expected indentation of 6 spaces but found 10          @typescript-eslint/indent
+  16:11  error    Unexpected lexical declaration in case block           no-case-declarations
+  16:28  warning  Forbidden non-null assertion                           @typescript-eslint/no-non-null-assertion
+
+u:\src\dashboard\Demant.Dashboard.Web\src\state\ClientListStore\ClientListActionCreators.ts
+   6:1  error  This line has a length of 103. Maximum allowed is 100  max-len
+  11:5  error  Expected no linebreak before this expression           implicit-arrow-linebreak
+
+u:\src\dashboard\Demant.Dashboard.Web\src\state\ClientListStore\ClientListActions.ts
+   4:1  error  This line has a length of 102. Maximum allowed is 100  max-len
+  25:1  error  This line has a length of 116. Maximum allowed is 100  max-len
+
+u:\src\dashboard\Demant.Dashboard.Web\src\state\configureStore.ts
+  10:16  warning  Missing return type on function           @typescript-eslint/explicit-module-boundary-types
+  18:19  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+u:\src\dashboard\Demant.Dashboard.Web\src\state\EditClientViewStore\EditClientViewActionCreators.ts
+   7:1   error    This line has a length of 103. Maximum allowed is 100  max-len
+  19:81  warning  'getState' is defined but never used                   @typescript-eslint/no-unused-vars
+  71:9   warning  Unexpected console statement                           no-console
+
+u:\src\dashboard\Demant.Dashboard.Web\src\state\EditClientViewStore\EditClientViewActions.ts
+   2:1  error    This line has a length of 102. Maximum allowed is 100  max-len
+  23:9  warning  Unexpected any. Specify a different type               @typescript-eslint/no-explicit-any
+  38:9  warning  Unexpected any. Specify a different type               @typescript-eslint/no-explicit-any
+  41:1  error    This line has a length of 116. Maximum allowed is 100  max-len
+
+u:\src\dashboard\Demant.Dashboard.Web\src\state\EditClientViewStore\EditClientViewReducer.ts
+   9:1  error  This line has a length of 125. Maximum allowed is 100  max-len
+  18:1  error  This line has a length of 135. Maximum allowed is 100  max-len
+  24:1  error  This line has a length of 106. Maximum allowed is 100  max-len
+  25:3  error  Expected a default case                                default-case
+  41:7  error  Unexpected lexical declaration in case block           no-case-declarations
+  65:7  error  Unexpected lexical declaration in case block           no-case-declarations
+
+u:\src\dashboard\Demant.Dashboard.Web\src\state\EditClientViewStore\EditClientViewState.ts
+  8:12  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+u:\src\dashboard\Demant.Dashboard.Web\src\state\EnvironmentStore\EnvironmentActionCreators.ts
+  4:1   error    This line has a length of 103. Maximum allowed is 100  max-len
+  7:16  warning  Missing return type on function                        @typescript-eslint/explicit-module-boundary-types
+
+u:\src\dashboard\Demant.Dashboard.Web\src\state\EnvironmentStore\EnvironmentActions.ts
+  3:1  error  This line has a length of 102. Maximum allowed is 100  max-len
+
+u:\src\dashboard\Demant.Dashboard.Web\src\state\EnvironmentStore\EnvironmentReducer.ts
+  6:1  error  This line has a length of 125. Maximum allowed is 100  max-len
+  8:1  error  This line has a length of 188. Maximum allowed is 100  max-len
+
+u:\src\dashboard\Demant.Dashboard.Web\src\state\index.ts
+  33:1  error  This line has a length of 102. Maximum allowed is 100  max-len
+  34:1  error  This line has a length of 104. Maximum allowed is 100  max-len
+  48:1  error  This line has a length of 102. Maximum allowed is 100  max-len
+
+u:\src\dashboard\Demant.Dashboard.Web\src\state\InternalizationStore\InternalizationStoreActionCreators.ts
+  2:16  warning  Missing return type on function  @typescript-eslint/explicit-module-boundary-types
+
+u:\src\dashboard\Demant.Dashboard.Web\src\state\InviteClientViewStore\InviteClientViewActionCreators.ts
+   6:1   error    This line has a length of 103. Maximum allowed is 100  max-len
+  17:5   warning  'getState' is defined but never used                   @typescript-eslint/no-unused-vars
+  66:20  warning  Missing return type on function                        @typescript-eslint/explicit-module-boundary-types
+  67:5   error    Expected no linebreak before this expression           implicit-arrow-linebreak
+
+u:\src\dashboard\Demant.Dashboard.Web\src\state\InviteClientViewStore\InviteClientViewActions.ts
+   1:13  warning  'SingleClientViewState' is defined but never used      @typescript-eslint/no-unused-vars
+   4:1   error    This line has a length of 102. Maximum allowed is 100  max-len
+  22:9   warning  Unexpected any. Specify a different type               @typescript-eslint/no-explicit-any
+  28:9   warning  Unexpected any. Specify a different type               @typescript-eslint/no-explicit-any
+  35:1   error    This line has a length of 116. Maximum allowed is 100  max-len
+
+u:\src\dashboard\Demant.Dashboard.Web\src\state\InviteClientViewStore\InviteClientViewReducer.ts
+  9:1  error  This line has a length of 125. Maximum allowed is 100  max-len
+
+u:\src\dashboard\Demant.Dashboard.Web\src\state\InviteClientViewStore\InviteClientViewState.ts
+  9:12  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+u:\src\dashboard\Demant.Dashboard.Web\src\state\LoadableState.ts
+  32:1  error  This line has a length of 117. Maximum allowed is 100  max-len
+
+u:\src\dashboard\Demant.Dashboard.Web\src\state\ResetPasswordStore\ResetPasswordActionCreator.ts
+   1:1   error    Unexpected Unicode BOM (Byte Order Mark)               unicode-bom
+   5:1   error    This line has a length of 103. Maximum allowed is 100  max-len
+   9:1   error    Expected indentation of 2 spaces but found 4           @typescript-eslint/indent
+  10:1   error    This line has a length of 105. Maximum allowed is 100  max-len
+  10:1   error    Expected indentation of 2 spaces but found 8           @typescript-eslint/indent
+  10:92  warning  'getState' is defined but never used                   @typescript-eslint/no-unused-vars
+  11:1   error    Expected indentation of 4 spaces but found 12          @typescript-eslint/indent
+  12:1   error    Expected indentation of 6 spaces but found 16          @typescript-eslint/indent
+  13:1   error    Expected indentation of 6 spaces but found 16          @typescript-eslint/indent
+  14:1   error    Expected indentation of 4 spaces but found 12          @typescript-eslint/indent
+  16:1   error    Expected indentation of 4 spaces but found 12          @typescript-eslint/indent
+  17:1   error    Expected indentation of 6 spaces but found 16          @typescript-eslint/indent
+  18:1   error    Expected indentation of 8 spaces but found 20          @typescript-eslint/indent
+  19:1   error    Expected indentation of 8 spaces but found 20          @typescript-eslint/indent
+  20:1   error    Expected indentation of 10 spaces but found 24         @typescript-eslint/indent
+  21:1   error    Expected indentation of 8 spaces but found 20          @typescript-eslint/indent
+  22:1   error    Expected indentation of 8 spaces but found 20          @typescript-eslint/indent
+  23:1   error    Expected indentation of 10 spaces but found 24         @typescript-eslint/indent
+  23:25  error    Expected property shorthand                            object-shorthand
+  24:1   error    Expected indentation of 10 spaces but found 24         @typescript-eslint/indent
+  25:1   error    Expected indentation of 10 spaces but found 24         @typescript-eslint/indent
+  26:1   error    Expected indentation of 10 spaces but found 24         @typescript-eslint/indent
+  27:1   error    Expected indentation of 10 spaces but found 24         @typescript-eslint/indent
+  28:1   error    Expected indentation of 10 spaces but found 24         @typescript-eslint/indent
+  28:45  error    Missing trailing comma                                 comma-dangle
+  29:1   error    Expected indentation of 8 spaces but found 20          @typescript-eslint/indent
+  29:23  error    Missing trailing comma                                 comma-dangle
+  30:1   error    Expected indentation of 6 spaces but found 16          @typescript-eslint/indent
+  31:1   error    Expected indentation of 6 spaces but found 20          @typescript-eslint/indent
+  32:1   error    Expected indentation of 8 spaces but found 24          @typescript-eslint/indent
+  32:43  warning  'data' is defined but never used                       @typescript-eslint/no-unused-vars
+  32:43  error    'data' is already declared in the upper scope          no-shadow
+  33:1   error    Expected indentation of 10 spaces but found 28         @typescript-eslint/indent
+  34:1   error    Expected indentation of 8 spaces but found 24          @typescript-eslint/indent
+  35:1   error    Expected indentation of 6 spaces but found 20          @typescript-eslint/indent
+  36:1   error    Expected indentation of 8 spaces but found 24          @typescript-eslint/indent
+  37:1   error    Expected indentation of 10 spaces but found 28         @typescript-eslint/indent
+  38:1   error    Expected indentation of 12 spaces but found 32         @typescript-eslint/indent
+  39:1   error    Expected indentation of 12 spaces but found 32         @typescript-eslint/indent
+  40:1   error    Expected indentation of 12 spaces but found 32         @typescript-eslint/indent
+  41:1   error    Expected indentation of 10 spaces but found 28         @typescript-eslint/indent
+  42:1   error    Expected indentation of 8 spaces but found 24          @typescript-eslint/indent
+  43:1   error    Expected indentation of 6 spaces but found 20          @typescript-eslint/indent
+  44:1   error    Expected indentation of 4 spaces but found 16          @typescript-eslint/indent
+  45:1   error    Expected indentation of 6 spaces but found 20          @typescript-eslint/indent
+  46:1   error    Expected indentation of 4 spaces but found 16          @typescript-eslint/indent
+  48:1   error    Expected indentation of 2 spaces but found 8           @typescript-eslint/indent
+  48:9   error    Block must not be padded by blank lines                padded-blocks
+  49:3   error    Newline required at end of file but not found          eol-last
+
+u:\src\dashboard\Demant.Dashboard.Web\src\state\ResetPasswordStore\ResetPasswordActions.ts
+   1:1    error    Unexpected Unicode BOM (Byte Order Mark)               unicode-bom
+   2:1    error    This line has a length of 102. Maximum allowed is 100  max-len
+   5:1    error    Expected indentation of 2 spaces but found 4           @typescript-eslint/indent
+   6:1    error    Expected indentation of 2 spaces but found 4           @typescript-eslint/indent
+  10:1    error    Expected indentation of 2 spaces but found 4           @typescript-eslint/indent
+  14:1    error    Expected indentation of 2 spaces but found 4           @typescript-eslint/indent
+  15:1    error    Expected indentation of 2 spaces but found 4           @typescript-eslint/indent
+  16:1    error    Expected indentation of 2 spaces but found 4           @typescript-eslint/indent
+  16:11   warning  Unexpected any. Specify a different type               @typescript-eslint/no-explicit-any
+  19:1    error    This line has a length of 116. Maximum allowed is 100  max-len
+  21:1    error    This line has a length of 145. Maximum allowed is 100  max-len
+  21:146  error    Newline required at end of file but not found          eol-last
+
+u:\src\dashboard\Demant.Dashboard.Web\src\state\ResetPasswordStore\ResetPasswordReducer.ts
+   1:1   error  Unexpected Unicode BOM (Byte Order Mark)               unicode-bom
+   5:1   error  This line has a length of 125. Maximum allowed is 100  max-len
+   8:1   error  Expected indentation of 2 spaces but found 4           @typescript-eslint/indent
+   9:1   error  Expected indentation of 2 spaces but found 4           @typescript-eslint/indent
+   9:48  error  Missing trailing comma                                 comma-dangle
+  13:1   error  Expected indentation of 2 spaces but found 4           @typescript-eslint/indent
+  14:1   error  Expected indentation of 2 spaces but found 4           @typescript-eslint/indent
+  16:1   error  Expected indentation of 2 spaces but found 4           @typescript-eslint/indent
+  18:1   error  Expected indentation of 6 spaces but found 8           @typescript-eslint/indent
+  19:1   error  Expected indentation of 8 spaces but found 12          @typescript-eslint/indent
+  20:1   error  Expected indentation of 8 spaces but found 12          @typescript-eslint/indent
+  20:61  error  Missing trailing comma                                 comma-dangle
+  21:1   error  Expected indentation of 6 spaces but found 8           @typescript-eslint/indent
+  24:1   error  Expected indentation of 6 spaces but found 8           @typescript-eslint/indent
+  25:1   error  Expected indentation of 8 spaces but found 12          @typescript-eslint/indent
+  26:1   error  Expected indentation of 8 spaces but found 12          @typescript-eslint/indent
+  26:58  error  Missing trailing comma                                 comma-dangle
+  27:1   error  Expected indentation of 6 spaces but found 8           @typescript-eslint/indent
+  30:1   error  Expected indentation of 6 spaces but found 8           @typescript-eslint/indent
+  30:9   error  Unexpected lexical declaration in case block           no-case-declarations
+  31:1   error  Expected indentation of 6 spaces but found 8           @typescript-eslint/indent
+  32:1   error  Expected indentation of 8 spaces but found 12          @typescript-eslint/indent
+  33:1   error  Expected indentation of 8 spaces but found 12          @typescript-eslint/indent
+  34:1   error  Expected indentation of 8 spaces but found 12          @typescript-eslint/indent
+  35:1   error  Expected indentation of 10 spaces but found 16         @typescript-eslint/indent
+  36:1   error  Expected indentation of 10 spaces but found 16         @typescript-eslint/indent
+  37:1   error  Expected indentation of 8 spaces but found 12          @typescript-eslint/indent
+  38:1   error  Expected indentation of 6 spaces but found 8           @typescript-eslint/indent
+  40:1   error  Expected indentation of 6 spaces but found 8           @typescript-eslint/indent
+  41:1   error  Expected indentation of 2 spaces but found 4           @typescript-eslint/indent
+  42:3   error  Newline required at end of file but not found          eol-last
+
+u:\src\dashboard\Demant.Dashboard.Web\src\state\ResetPasswordStore\ResetPasswordState.ts
+   1:1   error    Unexpected Unicode BOM (Byte Order Mark)       unicode-bom
+   4:1   error    Expected indentation of 2 spaces but found 4   @typescript-eslint/indent
+   5:1   error    Expected indentation of 2 spaces but found 4   @typescript-eslint/indent
+   6:1   error    Expected indentation of 2 spaces but found 4   @typescript-eslint/indent
+   7:1   error    Expected indentation of 4 spaces but found 8   @typescript-eslint/indent
+   8:1   error    Expected indentation of 4 spaces but found 8   @typescript-eslint/indent
+   8:16  warning  Unexpected any. Specify a different type       @typescript-eslint/no-explicit-any
+   9:1   error    Expected indentation of 2 spaces but found 4   @typescript-eslint/indent
+  15:1   error    Expected indentation of 2 spaces but found 4   @typescript-eslint/indent
+  16:1   error    Expected indentation of 2 spaces but found 4   @typescript-eslint/indent
+  17:1   error    Expected indentation of 2 spaces but found 4   @typescript-eslint/indent
+  18:1   error    Expected indentation of 2 spaces but found 4   @typescript-eslint/indent
+  19:1   error    Expected indentation of 2 spaces but found 4   @typescript-eslint/indent
+  20:1   error    Expected indentation of 2 spaces but found 4   @typescript-eslint/indent
+  21:1   error    Expected indentation of 2 spaces but found 4   @typescript-eslint/indent
+  22:1   error    Expected indentation of 2 spaces but found 4   @typescript-eslint/indent
+  23:2   error    Newline required at end of file but not found  eol-last
+
+u:\src\dashboard\Demant.Dashboard.Web\src\state\SingleClientViewStore\SingleClientViewActionCreators.ts
+   5:1   error  `react-redux-i18n` import should occur before import of `./SingleClientViewActions`  import/order
+  18:5   error  Expected no linebreak before this expression                                         implicit-arrow-linebreak
+  36:38  error  Missing trailing comma                                                               comma-dangle
+  48:5   error  Expected no linebreak before this expression                                         implicit-arrow-linebreak
+  56:1   error  Expected indentation of 2 spaces but found 4                                         @typescript-eslint/indent
+  57:1   error  Expected indentation of 4 spaces but found 6                                         @typescript-eslint/indent
+  58:1   error  Expected indentation of 2 spaces but found 4                                         @typescript-eslint/indent
+
+u:\src\dashboard\Demant.Dashboard.Web\src\state\SingleClientViewStore\SingleClientViewReducer.ts
+  45:1   error  This line has a length of 107. Maximum allowed is 100  max-len
+  50:14  error  A space is required after '{'                          object-curly-spacing
+  50:74  error  A space is required before '}'                         object-curly-spacing
+  50:75  error  Missing semicolon                                      @typescript-eslint/semi
+
+u:\src\dashboard\Demant.Dashboard.Web\src\types\react-redux-i18n.d.ts
+   7:1   error    File has too many classes (2). Maximum allowed is 1                                                                                                                                                                                                                                                               max-classes-per-file
+  15:31  warning  Unexpected any. Specify a different type                                                                                                                                                                                                                                                                          @typescript-eslint/no-explicit-any
+  16:36  warning  Unexpected any. Specify a different type                                                                                                                                                                                                                                                                          @typescript-eslint/no-explicit-any
+  18:3   error    All 'var' declarations must be at the top of the function scope                                                                                                                                                                                                                                                   vars-on-top
+  18:10  error    Exporting mutable 'var' binding, use 'const' instead                                                                                                                                                                                                                                                              import/no-mutable-exports
+  18:10  error    Unexpected var, use let or const instead                                                                                                                                                                                                                                                                          no-var
+  25:59  warning  Unexpected any. Specify a different type                                                                                                                                                                                                                                                                          @typescript-eslint/no-explicit-any
+  39:23  warning  Unexpected any. Specify a different type                                                                                                                                                                                                                                                                          @typescript-eslint/no-explicit-any
+  46:17  error    Don't use `Object` as a type. The `Object` type actually means "any non-nullish value", so it is marginally better than `unknown`.
+- If you want a type meaning "any object", you probably want `Record<string, unknown>` instead.
+- If you want a type meaning "any value", you probably want `unknown` instead  @typescript-eslint/ban-types
+  49:32  error    Don't use `object` as a type. The `object` type is currently hard to use ([see this issue](https://github.com/microsoft/TypeScript/issues/21732)).
+Consider using `Record<string, unknown>` instead, as it allows you to more easily inspect and use the keys                                                     @typescript-eslint/ban-types
+  61:41  warning  Unexpected any. Specify a different type                                                                                                                                                                                                                                                                          @typescript-eslint/no-explicit-any
+  61:56  warning  Unexpected any. Specify a different type                                                                                                                                                                                                                                                                          @typescript-eslint/no-explicit-any
+  66:65  warning  Unexpected any. Specify a different type                                                                                                                                                                                                                                                                          @typescript-eslint/no-explicit-any
+  71:33  warning  Unexpected any. Specify a different type                                                                                                                                                                                                                                                                          @typescript-eslint/no-explicit-any
+  76:29  warning  Unexpected any. Specify a different type                                                                                                                                                                                                                                                                          @typescript-eslint/no-explicit-any
+
+u:\src\dashboard\Demant.Dashboard.Web\src\components\AuthenticationPanel.tsx
+  32:22  warning  Unexpected any. Specify a different type       @typescript-eslint/no-explicit-any
+  35:7   warning  Unexpected console statement                   no-console
+  40:14  warning  Forbidden non-null assertion                   @typescript-eslint/no-non-null-assertion
+  44:22  warning  Forbidden non-null assertion                   @typescript-eslint/no-non-null-assertion
+  52:23  warning  Forbidden non-null assertion                   @typescript-eslint/no-non-null-assertion
+  53:9   error    Expected space(s) after "if"                   @typescript-eslint/keyword-spacing
+  53:22  error    Strings must use singlequote                   @typescript-eslint/quotes
+  53:61  error    Missing space before opening brace             space-before-blocks
+  59:29  warning  Forbidden non-null assertion                   @typescript-eslint/no-non-null-assertion
+  65:1   error    Expected indentation of 4 spaces but found 6   @typescript-eslint/indent
+  66:1   error    Expected indentation of 6 spaces but found 10  @typescript-eslint/indent
+  67:1   error    Expected indentation of 4 spaces but found 6   @typescript-eslint/indent
+
+u:\src\dashboard\Demant.Dashboard.Web\src\components\ClientDetails.tsx
+  35:29  error  Prop spreading is forbidden  react/jsx-props-no-spreading
+
+u:\src\dashboard\Demant.Dashboard.Web\src\components\ClientPending.tsx
+  19:1   error  Component should be written as a pure function            react/prefer-stateless-function
+  25:14  error  Must use destructuring props assignment                   react/destructuring-assignment
+  25:48  error  Must use destructuring props assignment                   react/destructuring-assignment
+  27:12  error  Must use destructuring props assignment                   react/destructuring-assignment
+  27:59  error  Must use destructuring props assignment                   react/destructuring-assignment
+  28:54  error  Must use destructuring props assignment                   react/destructuring-assignment
+  29:65  error  Must use destructuring props assignment                   react/destructuring-assignment
+  31:36  error  Expected indentation of 10 space characters but found 35  react/jsx-indent
+
+u:\src\dashboard\Demant.Dashboard.Web\src\components\ClientsTable.tsx
+   5:1   error  `react-redux-i18n` import should occur before import of `../state/ClientListStore/ClientListState`  import/order
+  59:11  error  A control must be associated with a text label                                                      jsx-a11y/control-has-associated-label
+  60:11  error  A control must be associated with a text label                                                      jsx-a11y/control-has-associated-label
+  61:11  error  A control must be associated with a text label                                                      jsx-a11y/control-has-associated-label
+  62:11  error  A control must be associated with a text label                                                      jsx-a11y/control-has-associated-label
+  63:11  error  A control must be associated with a text label                                                      jsx-a11y/control-has-associated-label
+
+u:\src\dashboard\Demant.Dashboard.Web\src\components\ClientUnlinkButton.tsx
+   65:7   error    Do not use setState in componentDidUpdate                     react/no-did-update-set-state
+   66:12  error    Use callback in setState when referencing the previous state  react/no-access-state-in-setstate
+   75:7   error    Do not use setState in componentDidUpdate                     react/no-did-update-set-state
+   76:12  error    Use callback in setState when referencing the previous state  react/no-access-state-in-setstate
+   83:24  error    Use callback in setState when referencing the previous state  react/no-access-state-in-setstate
+  163:25  warning  Unexpected any. Specify a different type                      @typescript-eslint/no-explicit-any
+
+u:\src\dashboard\Demant.Dashboard.Web\src\components\EditClient.tsx
+   34:18  error    Must use destructuring props assignment                                        react/destructuring-assignment
+   35:17  error    Must use destructuring props assignment                                        react/destructuring-assignment
+   37:25  error    Must use destructuring props assignment                                        react/destructuring-assignment
+   38:21  error    Must use destructuring props assignment                                        react/destructuring-assignment
+   39:22  error    Must use destructuring props assignment                                        react/destructuring-assignment
+   40:20  error    Must use destructuring props assignment                                        react/destructuring-assignment
+   44:19  warning  Unexpected any. Specify a different type                                       @typescript-eslint/no-explicit-any
+   93:12  error    Use callback in setState when referencing the previous state                   react/no-access-state-in-setstate
+  100:5   error    Expected space(s) after "if"                                                   @typescript-eslint/keyword-spacing
+  102:5   error    Opening curly brace does not appear on the same line as controlling statement  @typescript-eslint/brace-style
+  104:12  error    Use callback in setState when referencing the previous state                   react/no-access-state-in-setstate
+  105:30  error    Strings must use singlequote                                                   @typescript-eslint/quotes
+  117:12  error    Use callback in setState when referencing the previous state                   react/no-access-state-in-setstate
+  135:37  error    JSX props should not use .bind()                                               react/jsx-no-bind
+  149:25  error    Use callback in setState when referencing the previous state                   react/no-access-state-in-setstate
+  163:25  error    Use callback in setState when referencing the previous state                   react/no-access-state-in-setstate
+  180:25  error    Use callback in setState when referencing the previous state                   react/no-access-state-in-setstate
+  194:25  error    Use callback in setState when referencing the previous state                   react/no-access-state-in-setstate
+  215:33  error    Use callback in setState when referencing the previous state                   react/no-access-state-in-setstate
+  230:33  error    Use callback in setState when referencing the previous state                   react/no-access-state-in-setstate
+  245:33  error    Use callback in setState when referencing the previous state                   react/no-access-state-in-setstate
+  265:33  error    Use callback in setState when referencing the previous state                   react/no-access-state-in-setstate
+  282:33  error    Use callback in setState when referencing the previous state                   react/no-access-state-in-setstate
+
+u:\src\dashboard\Demant.Dashboard.Web\src\components\FittingSoftwareDetector.tsx
+  17:1   error    This line has a length of 113. Maximum allowed is 100                       max-len
+  33:5   error    Must use destructuring props assignment                                     react/destructuring-assignment
+  37:1   error    This line has a length of 109. Maximum allowed is 100                       max-len
+  41:9   error    Must use destructuring props assignment                                     react/destructuring-assignment
+  44:9   error    Must use destructuring props assignment                                     react/destructuring-assignment
+  47:6   warning  'failureReason' is defined but never used                                   @typescript-eslint/no-unused-vars
+  51:7   error    Must use destructuring props assignment                                     react/destructuring-assignment
+  56:1   error    This line has a length of 137. Maximum allowed is 100                       max-len
+  64:11  error    Must use destructuring props assignment                                     react/destructuring-assignment
+  66:10  warning  'failureReason' is defined but never used                                   @typescript-eslint/no-unused-vars
+  68:11  error    Expected no linebreak before this expression                                implicit-arrow-linebreak
+  72:3   error    render should be placed after isFittingSoftwareApiAvailable                 react/sort-comp
+  75:10  error    Must use destructuring props assignment                                     react/destructuring-assignment
+  80:32  error    Expected 'this' to be used by class method 'isFittingSoftwareApiAvailable'  class-methods-use-this
+
+u:\src\dashboard\Demant.Dashboard.Web\src\components\HttpErrorDisplay.tsx
+  47:38  error  There should be no line break before or after '='     operator-linebreak
+  49:51  error  There should be no line break before or after '='     operator-linebreak
+  52:35  error  There should be no line break before or after '='     operator-linebreak
+  56:1   error  Expected indentation of 12 spaces but found 14        @typescript-eslint/indent
+  57:1   error  Expected indentation of 12 spaces but found 14        @typescript-eslint/indent
+  58:1   error  Expected indentation of 10 spaces but found 12        @typescript-eslint/indent
+  70:15  error  Parentheses around JSX should be on separate lines    react/jsx-wrap-multilines
+  74:7   error  Expected closing tag to match indentation of opening  react/jsx-closing-tag-location
+
+u:\src\dashboard\Demant.Dashboard.Web\src\components\LoadableStateView.tsx
+  5:8  error  Using exported name 'HttpErrorDisplay' as identifier for default export  import/no-named-as-default
+
+u:\src\dashboard\Demant.Dashboard.Web\src\components\LoadedClientPage.tsx
+  16:37  error  There should be no line break before or after '='   operator-linebreak
+  17:77  error  '||' should be placed at the beginning of the line  operator-linebreak
+
+u:\src\dashboard\Demant.Dashboard.Web\src\components\Navigation\Hamburger\Hamburger.tsx
+  16:5  error  Unexpected newline before '{'  react/jsx-curly-newline
+
+u:\src\dashboard\Demant.Dashboard.Web\src\components\Navigation\Menu\Menu.tsx
+  40:13  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+u:\src\dashboard\Demant.Dashboard.Web\src\components\Navigation\Sidenav\Sidenav.tsx
+  22:5  error  Unexpected newline before '{'  react/jsx-curly-newline
+
+u:\src\dashboard\Demant.Dashboard.Web\src\components\Navigation\UserInfo\UserInfo.tsx
+  31:11  error  Unexpected newline before '{'  react/jsx-curly-newline
+
+u:\src\dashboard\Demant.Dashboard.Web\src\components\PrivateRoute.tsx
+   1:1   error  Unexpected Unicode BOM (Byte Order Mark)       unicode-bom
+   8:1   error  Expected indentation of 2 spaces but found 4   @typescript-eslint/indent
+   9:1   error  Expected indentation of 2 spaces but found 4   @typescript-eslint/indent
+  13:1   error  Expected indentation of 2 spaces but found 4   @typescript-eslint/indent
+  14:1   error  Expected indentation of 2 spaces but found 4   @typescript-eslint/indent
+  27:1   error  Expected indentation of 2 spaces but found 4   @typescript-eslint/indent
+  29:1   error  Expected indentation of 2 spaces but found 4   @typescript-eslint/indent
+  30:1   error  Expected indentation of 4 spaces but found 8   @typescript-eslint/indent
+  30:70  error  A space is required before closing bracket     react/jsx-tag-spacing
+  31:1   error  Expected indentation of 2 spaces but found 4   @typescript-eslint/indent
+  31:12  error  Unnecessary 'else' after 'return'              no-else-return
+  32:1   error  Expected indentation of 4 spaces but found 8   @typescript-eslint/indent
+  33:1   error  Expected indentation of 4 spaces but found 8   @typescript-eslint/indent
+  33:61  error  A space is required before closing bracket     react/jsx-tag-spacing
+  34:1   error  Expected indentation of 2 spaces but found 4   @typescript-eslint/indent
+  38:55  error  Newline required at end of file but not found  eol-last
+
+u:\src\dashboard\Demant.Dashboard.Web\src\components\SwitchLanguagePanel.tsx
+  12:1   error  This line has a length of 144. Maximum allowed is 100  max-len
+  15:3   error  render should be placed after setLang                  react/sort-comp
+  16:26  error  Must use destructuring props assignment                react/destructuring-assignment
+  17:26  error  Must use destructuring props assignment                react/destructuring-assignment
+  42:5   error  Must use destructuring props assignment                react/destructuring-assignment
+
+u:\src\dashboard\Demant.Dashboard.Web\src\pages\Alerts.tsx
+  55:96  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+u:\src\dashboard\Demant.Dashboard.Web\src\pages\Client.tsx
+  22:1   error    Expected indentation of 0 spaces but found 2        @typescript-eslint/indent
+  25:29  error    Must use destructuring props assignment             react/destructuring-assignment
+  26:20  error    Must use destructuring props assignment             react/destructuring-assignment
+  27:20  error    Must use destructuring props assignment             react/destructuring-assignment
+  31:51  error    '&&' should be placed at the beginning of the line  operator-linebreak
+  49:8   error    Must use destructuring props assignment             react/destructuring-assignment
+  55:9   error    Expected no linebreak before this expression        implicit-arrow-linebreak
+  56:7   error    Unexpected newline before '{'                       react/jsx-curly-newline
+  68:17  warning  Unexpected any. Specify a different type            @typescript-eslint/no-explicit-any
+
+u:\src\dashboard\Demant.Dashboard.Web\src\pages\Clients.tsx
+   8:8   error    Using exported name 'ClientsTable' as identifier for default export  import/no-named-as-default
+  89:18  warning  Unexpected any. Specify a different type                             @typescript-eslint/no-explicit-any
+
+u:\src\dashboard\Demant.Dashboard.Web\src\pages\EditClient.tsx
+   13:8   error    Using exported name 'HttpErrorDisplay' as identifier for default export  import/no-named-as-default
+   34:5   error    Must use destructuring props assignment                                  react/destructuring-assignment
+   35:5   error    Must use destructuring props assignment                                  react/destructuring-assignment
+   35:47  error    Must use destructuring props assignment                                  react/destructuring-assignment
+   36:5   error    Must use destructuring props assignment                                  react/destructuring-assignment
+   36:47  error    Must use destructuring props assignment                                  react/destructuring-assignment
+   37:5   error    Must use destructuring props assignment                                  react/destructuring-assignment
+   42:3   error    editPatient should be placed after componentDidUpdate                    react/sort-comp
+   48:7   error    Must use destructuring props assignment                                  react/destructuring-assignment
+   51:7   error    Must use destructuring props assignment                                  react/destructuring-assignment
+   75:7   error    Must use destructuring props assignment                                  react/destructuring-assignment
+   76:1   error    This line has a length of 103. Maximum allowed is 100                    max-len
+   76:10  error    Must use destructuring props assignment                                  react/destructuring-assignment
+   78:7   error    Must use destructuring props assignment                                  react/destructuring-assignment
+   83:10  error    Must use destructuring props assignment                                  react/destructuring-assignment
+   88:7   error    Must use destructuring props assignment                                  react/destructuring-assignment
+   90:10  error    Must use destructuring props assignment                                  react/destructuring-assignment
+   97:7   error    Must use destructuring props assignment                                  react/destructuring-assignment
+  102:27  error    Must use destructuring props assignment                                  react/destructuring-assignment
+  102:68  error    Must use destructuring props assignment                                  react/destructuring-assignment
+  108:7   error    Must use destructuring props assignment                                  react/destructuring-assignment
+  114:14  error    Do not nest ternary expressions                                          no-nested-ternary
+  114:14  error    Must use destructuring props assignment                                  react/destructuring-assignment
+  116:17  warning  Forbidden non-null assertion                                             @typescript-eslint/no-non-null-assertion
+  116:17  error    Must use destructuring props assignment                                  react/destructuring-assignment
+  123:32  warning  Forbidden non-null assertion                                             @typescript-eslint/no-non-null-assertion
+  123:32  error    Must use destructuring props assignment                                  react/destructuring-assignment
+  124:27  warning  Forbidden non-null assertion                                             @typescript-eslint/no-non-null-assertion
+  124:27  error    Must use destructuring props assignment                                  react/destructuring-assignment
+  138:11  error    JSX props should not use .bind()                                         react/jsx-no-bind
+  139:21  error    Must use destructuring props assignment                                  react/destructuring-assignment
+  140:21  error    Must use destructuring props assignment                                  react/destructuring-assignment
+  141:30  error    Must use destructuring props assignment                                  react/destructuring-assignment
+  158:21  warning  Unexpected any. Specify a different type                                 @typescript-eslint/no-explicit-any
+
+u:\src\dashboard\Demant.Dashboard.Web\src\pages\InviteClient.tsx
+    9:8   error    Using exported name 'HttpErrorDisplay' as identifier for default export  import/no-named-as-default
+   35:5   error    Must use destructuring props assignment                                  react/destructuring-assignment
+   35:50  error    There should be no line break before or after '='                        operator-linebreak
+   42:7   error    Must use destructuring props assignment                                  react/destructuring-assignment
+   42:54  error    '!==' should be placed at the beginning of the line                      operator-linebreak
+   45:7   error    Must use destructuring props assignment                                  react/destructuring-assignment
+   67:43  error    '===' should be placed at the beginning of the line                      operator-linebreak
+   75:1   error    This line has a length of 117. Maximum allowed is 100                    max-len
+  120:23  warning  Unexpected any. Specify a different type                                 @typescript-eslint/no-explicit-any
+
+u:\src\dashboard\Demant.Dashboard.Web\src\pages\PageNotFound.tsx
+  4:22  warning  Missing return type on function  @typescript-eslint/explicit-module-boundary-types
+
+u:\src\dashboard\Demant.Dashboard.Web\src\pages\PageNotFoundWithIngressHint.tsx
+   4:1   error    This line has a length of 128. Maximum allowed is 100  max-len
+   5:22  warning  Missing return type on function                        @typescript-eslint/explicit-module-boundary-types
+  10:1   error    This line has a length of 209. Maximum allowed is 100  max-len
+  11:1   error    This line has a length of 136. Maximum allowed is 100  max-len
+
+u:\src\dashboard\Demant.Dashboard.Web\src\pages\PageNotFoundWithSwaggerHint.tsx
+   4:1   error    This line has a length of 128. Maximum allowed is 100            max-len
+   5:22  warning  Missing return type on function                                  @typescript-eslint/explicit-module-boundary-types
+  10:15  error    `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+  14:81  error    `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+  15:79  error    `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+  16:86  error    `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+  17:84  error    `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+  18:88  error    `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+  19:87  error    `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+
+u:\src\dashboard\Demant.Dashboard.Web\src\pages\PleaseWait.tsx
+   1:1   error  Unexpected Unicode BOM (Byte Order Mark)                  unicode-bom
+   5:1   error  Component should be written as a pure function            react/prefer-stateless-function
+   6:1   error  Expected indentation of 2 spaces but found 4              @typescript-eslint/indent
+   7:1   error  Expected indentation of 4 spaces but found 8              @typescript-eslint/indent
+   8:13  error  Expected indentation of 10 space characters but found 12  react/jsx-indent
+   9:1   error  Expected indentation of 14 space characters but found 0   react/jsx-indent
+  10:1   error  Expected closing tag to match indentation of opening      react/jsx-closing-tag-location
+  10:1   error  Expected indentation of 12 space characters but found 0   react/jsx-indent
+  11:1   error  Expected indentation of 4 spaces but found 8              @typescript-eslint/indent
+  12:1   error  Expected indentation of 2 spaces but found 4              @typescript-eslint/indent
+  15:38  error  Newline required at end of file but not found             eol-last
+
+u:\src\dashboard\Demant.Dashboard.Web\src\pages\ResetPassword.tsx
+    1:1    error    Unexpected Unicode BOM (Byte Order Mark)                                                                            unicode-bom
+    3:27   error    'u:\src\dashboard\Demant.Dashboard.Web\node_modules\react-redux-i18n\build\index.js' imported multiple times        import/no-duplicates
+    9:8    error    Using exported name 'HttpErrorDisplay' as identifier for default export                                             import/no-named-as-default
+   10:1    error    `react-redux-i18n` import should occur before import of `../state`                                                  import/order
+   10:27   error    'u:\src\dashboard\Demant.Dashboard.Web\node_modules\react-redux-i18n\build\index.js' imported multiple times        import/no-duplicates
+   11:1    error    `reactstrap` import should occur before import of `../state`                                                        import/order
+   12:1    error    `react-router-dom` import should occur before import of `../state`                                                  import/order
+   13:1    error    `components/ApiCallInProgress` import should occur before import of `../state`                                      import/order
+   16:1    error    Expected indentation of 2 spaces but found 4                                                                        @typescript-eslint/indent
+   17:1    error    Expected indentation of 2 spaces but found 4                                                                        @typescript-eslint/indent
+   18:1    error    Expected indentation of 2 spaces but found 4                                                                        @typescript-eslint/indent
+   19:1    error    Expected indentation of 2 spaces but found 4                                                                        @typescript-eslint/indent
+   27:1    error    Expected indentation of 2 spaces but found 4                                                                        @typescript-eslint/indent
+   31:1    error    Expected indentation of 2 spaces but found 4                                                                        @typescript-eslint/indent
+   32:1    error    Expected indentation of 4 spaces but found 8                                                                        @typescript-eslint/indent
+   33:1    error    Expected indentation of 4 spaces but found 8                                                                        @typescript-eslint/indent
+   33:9    error    Must use destructuring props assignment                                                                             react/destructuring-assignment
+   34:1    error    Expected indentation of 2 spaces but found 4                                                                        @typescript-eslint/indent
+   36:1    error    Expected indentation of 2 spaces but found 4                                                                        @typescript-eslint/indent
+   36:17   warning  Unexpected any. Specify a different type                                                                            @typescript-eslint/no-explicit-any
+   37:1    error    Expected indentation of 4 spaces but found 8                                                                        @typescript-eslint/indent
+   38:1    error    Expected indentation of 4 spaces but found 8                                                                        @typescript-eslint/indent
+   38:9    error    Must use destructuring props assignment                                                                             react/destructuring-assignment
+   38:34   error    Must use destructuring state assignment                                                                             react/destructuring-assignment
+   39:1    error    Expected indentation of 2 spaces but found 4                                                                        @typescript-eslint/indent
+   41:1    error    Expected indentation of 2 spaces but found 4                                                                        @typescript-eslint/indent
+   42:1    error    Expected indentation of 4 spaces but found 8                                                                        @typescript-eslint/indent
+   42:13   warning  Forbidden non-null assertion                                                                                        @typescript-eslint/no-non-null-assertion
+   42:13   error    Must use destructuring props assignment                                                                             react/destructuring-assignment
+   43:1    error    Expected indentation of 6 spaces but found 12                                                                       @typescript-eslint/indent
+   43:20   error    Missing parentheses around multilines JSX                                                                           react/jsx-wrap-multilines
+   44:24   error    Expected indentation of 14 space characters but found 23                                                            react/jsx-indent-props
+   45:24   error    Expected indentation of 14 space characters but found 23                                                            react/jsx-indent-props
+   45:68   error    The closing bracket must be aligned with the line containing the opening tag (expected column 13 on the next line)  react/jsx-closing-bracket-location
+   46:1    error    Expected indentation of 4 spaces but found 8                                                                        @typescript-eslint/indent
+   46:16   error    Unnecessary 'else' after 'return'                                                                                   no-else-return
+   46:20   warning  Forbidden non-null assertion                                                                                        @typescript-eslint/no-non-null-assertion
+   46:20   error    Must use destructuring props assignment                                                                             react/destructuring-assignment
+   47:1    error    Expected indentation of 6 spaces but found 12                                                                       @typescript-eslint/indent
+   47:20   error    Missing parentheses around multilines JSX                                                                           react/jsx-wrap-multilines
+   48:24   error    Expected indentation of 14 space characters but found 23                                                            react/jsx-indent-props
+   49:24   error    Expected indentation of 14 space characters but found 23                                                            react/jsx-indent-props
+   49:87   error    The closing bracket must be aligned with the line containing the opening tag (expected column 13 on the next line)  react/jsx-closing-bracket-location
+   50:1    error    Expected indentation of 4 spaces but found 8                                                                        @typescript-eslint/indent
+   51:1    error    Expected indentation of 6 spaces but found 12                                                                       @typescript-eslint/indent
+   51:20   error    Missing parentheses around multilines JSX                                                                           react/jsx-wrap-multilines
+   52:24   error    Expected indentation of 14 space characters but found 23                                                            react/jsx-indent-props
+   52:35   warning  Forbidden non-null assertion                                                                                        @typescript-eslint/no-non-null-assertion
+   52:35   error    Must use destructuring props assignment                                                                             react/destructuring-assignment
+   53:24   error    Expected indentation of 14 space characters but found 23                                                            react/jsx-indent-props
+   53:30   warning  Forbidden non-null assertion                                                                                        @typescript-eslint/no-non-null-assertion
+   53:30   error    Must use destructuring props assignment                                                                             react/destructuring-assignment
+   53:77   error    The closing bracket must be aligned with the line containing the opening tag (expected column 13 on the next line)  react/jsx-closing-bracket-location
+   54:1    error    Expected indentation of 4 spaces but found 8                                                                        @typescript-eslint/indent
+   55:1    error    Expected indentation of 2 spaces but found 4                                                                        @typescript-eslint/indent
+   57:1    error    Expected indentation of 2 spaces but found 4                                                                        @typescript-eslint/indent
+   57:12   error    Expected 'this' to be used by class method 'success'                                                                class-methods-use-this
+   58:1    error    Expected indentation of 4 spaces but found 8                                                                        @typescript-eslint/indent
+   59:13   error    Expected indentation of 10 space characters but found 12                                                            react/jsx-indent
+   60:13   error    Expected indentation of 14 space characters but found 12                                                            react/jsx-indent
+   61:17   error    Expected indentation of 14 space characters but found 16                                                            react/jsx-indent
+   63:13   error    Expected indentation of 14 space characters but found 12                                                            react/jsx-indent
+   64:17   error    Expected indentation of 14 space characters but found 16                                                            react/jsx-indent
+   65:21   error    Expected indentation of 18 space characters but found 20                                                            react/jsx-indent
+   68:13   error    Expected indentation of 14 space characters but found 12                                                            react/jsx-indent
+   69:17   error    Expected indentation of 14 space characters but found 16                                                            react/jsx-indent
+   70:21   error    Expected indentation of 18 space characters but found 20                                                            react/jsx-indent
+   74:1    error    Expected indentation of 4 spaces but found 8                                                                        @typescript-eslint/indent
+   75:1    error    Expected indentation of 2 spaces but found 4                                                                        @typescript-eslint/indent
+   77:1    error    Expected indentation of 2 spaces but found 4                                                                        @typescript-eslint/indent
+   78:1    error    This line has a length of 106. Maximum allowed is 100                                                               max-len
+   78:1    error    Expected indentation of 4 spaces but found 8                                                                        @typescript-eslint/indent
+   78:13   error    Must use destructuring props assignment                                                                             react/destructuring-assignment
+   79:1    error    Expected indentation of 6 spaces but found 12                                                                       @typescript-eslint/indent
+   80:1    error    Expected indentation of 4 spaces but found 8                                                                        @typescript-eslint/indent
+   82:1    error    This line has a length of 109. Maximum allowed is 100                                                               max-len
+   82:1    error    Expected indentation of 4 spaces but found 8                                                                        @typescript-eslint/indent
+   82:13   error    Must use destructuring props assignment                                                                             react/destructuring-assignment
+   83:1    error    Expected indentation of 6 spaces but found 12                                                                       @typescript-eslint/indent
+   84:1    error    Expected indentation of 4 spaces but found 8                                                                        @typescript-eslint/indent
+   86:1    error    This line has a length of 108. Maximum allowed is 100                                                               max-len
+   86:1    error    Expected indentation of 4 spaces but found 8                                                                        @typescript-eslint/indent
+   86:13   error    Must use destructuring props assignment                                                                             react/destructuring-assignment
+   87:1    error    Expected indentation of 6 spaces but found 12                                                                       @typescript-eslint/indent
+   88:1    error    Expected indentation of 4 spaces but found 8                                                                        @typescript-eslint/indent
+   90:1    error    Expected indentation of 4 spaces but found 8                                                                        @typescript-eslint/indent
+   91:13   error    Expected indentation of 10 space characters but found 12                                                            react/jsx-indent
+   92:17   error    Expected indentation of 14 space characters but found 16                                                            react/jsx-indent
+   93:21   error    Expected indentation of 18 space characters but found 20                                                            react/jsx-indent
+   95:17   error    Expected indentation of 14 space characters but found 16                                                            react/jsx-indent
+   95:45   error    JSX props should not use .bind()                                                                                    react/jsx-no-bind
+   96:21   error    Expected indentation of 18 space characters but found 20                                                            react/jsx-indent
+   97:25   error    Expected indentation of 22 space characters but found 24                                                            react/jsx-indent
+   98:29   error    Expected indentation of 26 space characters but found 28                                                            react/jsx-indent
+   99:33   error    Expected indentation of 30 space characters but found 32                                                            react/jsx-indent
+  100:37   error    Expected indentation of 34 space characters but found 36                                                            react/jsx-indent
+  102:33   error    Expected indentation of 30 space characters but found 32                                                            react/jsx-indent
+  103:37   error    Expected indentation of 34 space characters but found 36                                                            react/jsx-indent-props
+  104:37   error    Expected indentation of 34 space characters but found 36                                                            react/jsx-indent-props
+  105:37   error    Expected indentation of 34 space characters but found 36                                                            react/jsx-indent-props
+  106:37   error    Expected indentation of 34 space characters but found 36                                                            react/jsx-indent-props
+  107:37   error    Expected indentation of 34 space characters but found 36                                                            react/jsx-indent-props
+  108:1    error    Expected indentation of 38 spaces but found 40                                                                      @typescript-eslint/indent
+  108:45   error    Use callback in setState when referencing the previous state                                                        react/no-access-state-in-setstate
+  108:59   error    Must use destructuring props assignment                                                                             react/destructuring-assignment
+  109:1    error    Expected indentation of 38 spaces but found 40                                                                      @typescript-eslint/indent
+  115:25   error    Expected indentation of 22 space characters but found 24                                                            react/jsx-indent
+  117:21   error    Expected indentation of 18 space characters but found 20                                                            react/jsx-indent
+  118:25   error    Expected indentation of 22 space characters but found 24                                                            react/jsx-indent
+  119:29   error    Expected indentation of 26 space characters but found 28                                                            react/jsx-indent
+  120:33   error    Expected indentation of 30 space characters but found 32                                                            react/jsx-indent
+  123:25   error    Expected indentation of 22 space characters but found 24                                                            react/jsx-indent
+  124:29   error    Expected indentation of 26 space characters but found 28                                                            react/jsx-indent
+  125:33   error    Expected indentation of 30 space characters but found 32                                                            react/jsx-indent
+  131:1    error    Expected indentation of 4 spaces but found 8                                                                        @typescript-eslint/indent
+  132:1    error    Expected indentation of 2 spaces but found 4                                                                        @typescript-eslint/indent
+  136:1    error    Expected indentation of 2 spaces but found 4                                                                        @typescript-eslint/indent
+  137:1    error    Expected indentation of 2 spaces but found 4                                                                        @typescript-eslint/indent
+  138:1    error    Expected indentation of 2 spaces but found 4                                                                        @typescript-eslint/indent
+  139:1    error    Expected indentation of 2 spaces but found 4                                                                        @typescript-eslint/indent
+  142:1    error    This line has a length of 110. Maximum allowed is 100                                                               max-len
+  142:106  warning  Unexpected any. Specify a different type                                                                            @typescript-eslint/no-explicit-any
+  142:111  error    Newline required at end of file but not found                                                                       eol-last
+
+u:\src\dashboard\Demant.Dashboard.Web\src\stories\Button.stories.tsx
+   7:32  warning  Unexpected console statement  no-console
+  12:62  warning  Unexpected alert              no-alert
+  17:28  warning  Unexpected alert              no-alert
+  23:28  warning  Unexpected alert              no-alert
+
+u:\src\dashboard\Demant.Dashboard.Web\src\stories\Modal.stories.tsx
+   7:42  warning  Unexpected alert  no-alert
+  12:57  warning  Unexpected alert  no-alert
+  24:23  warning  Unexpected alert  no-alert
+  48:44  warning  Unexpected alert  no-alert
+  51:52  warning  Unexpected alert  no-alert
+
+✖ 544 problems (467 errors, 77 warnings)
+  270 errors and 0 warnings potentially fixable with the `--fix` option.
+
