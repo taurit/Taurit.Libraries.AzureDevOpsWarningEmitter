@@ -13,6 +13,8 @@ namespace Taurit.Libraries.AzureDevOpsWarningEmitter
                     return new DotnetBuildLogParser();
                 case BuildLogParserType.React:
                     return new ReactBuildLogParser();
+                case BuildLogParserType.ESLint:
+                    return new ESLintLogParser();
                 default:
                     throw new InvalidOperationException($"Requested parser type `{parserType}` is not recognized.");
             }
@@ -26,6 +28,8 @@ namespace Taurit.Libraries.AzureDevOpsWarningEmitter
                     return new DotnetBuildLogParser();
                 case "react":
                     return new ReactBuildLogParser();
+                case "eslint":
+                    return new ESLintLogParser();
                 default:
                     throw new InvalidOperationException($"Requested parser type `{parserType}` is not recognized.");
             }

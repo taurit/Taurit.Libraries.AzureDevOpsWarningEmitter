@@ -5,7 +5,7 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 namespace Taurit.Libraries.AzureDevOpsWarningEmitter.Tests
 {
     [TestClass]
-    public class EslintParserUnitTests
+    public class ESLintParserUnitTests
     {
         [TestMethod]
         public void When_EslintOutputWithWarningsIsGivenAsInput_Expect_AllIssuesRecognized()
